@@ -8,7 +8,7 @@ from time import sleep
 
 """Validates that the use can enter and submit their valid user information and receive a message."""
 
-def test_webchat_search_result():
+def test_webchat_user_info():
     driver = webdriver.Chrome()
     driver.get("https://demo.podium.tools/qa-webchat-lorw/")
     driver.maximize_window()
