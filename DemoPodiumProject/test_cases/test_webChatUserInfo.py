@@ -44,7 +44,7 @@ def test_webchat_search_result():
     user_message.click()
     user_message.send_keys("SAAMMM")
 
-    # Validate the massage was received
+    # Validate the message was received
     submit_button = driver.find_element(By.CSS_SELECTOR, '#ComposeMessage div.SendSmsPage__Center button')
     submit_button.click()
     sleep(5)
