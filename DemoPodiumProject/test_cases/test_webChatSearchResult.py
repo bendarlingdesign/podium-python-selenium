@@ -31,7 +31,8 @@ def test_webchat_search_result():
     sleep(3)
 
     location_address = driver.find_element(By.CLASS_NAME, 'SendSmsPage__CurrentLocationAddress')
-    assert location_address.text == "8000 Step Down Rd, Herriman, UT 84096, USA"
+    assert location_address.text == "Scoreboard Sports - Orem"
+    sleep(3)
 
     print ("Test Case Passed successfully.")
     driver.quit()
