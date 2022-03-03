@@ -1,0 +1,11 @@
+** Demo Site Does Not Consistently Load the Chat
+Steps:
+1. Go to site: https://demo.podium.tools/qa-webchat-lorw/
+2. The user will not see any chat bubble to interact with. (included Screenshot of page issue: WebSiteBubbleNotVisible)
+
+** (Feature Change) Chat Bubble Zip or Address Search Results Don't Change Position Priority Depending On What Is Entered
+Steps:
+1. Go to site: https://demo.podium.tools/qa-webchat-lorw/
+2. Click on the chat bubble.
+3. Enter a valid Zip Code or Address.
+4. Result locations do not change their listed priority.
