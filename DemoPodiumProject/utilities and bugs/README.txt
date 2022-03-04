@@ -30,3 +30,5 @@ Try this if you want to run Selenium and the Chrome Webdriver on your Mac:
 ** To run all the tests, make sure you are in the test case folder in the terminal.  Type the command, pytest and press enter.
 ** To execute a specific test, make sure you are in the test case folder in the terminal.  Type the command, pytest test_theTestName.py
 ** The terminal will display if the test(s) were a failure or 100% pass.
+
+**Page Objects file added but not applied to the test cases.  Did not have time to impliment them or add classes.
